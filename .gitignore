@@ -1,0 +1,67 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Data & ML artifacts (DO NOT PUSH)
+# ======================
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+
+# Large data files
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.gz
+
+# Models / checkpoints
+*.pkl
+*.joblib
+*.pt
+*.h5
+*.onnx
+
+# ======================
+# Plots / outputs
+# ======================
+plots/
+figures/
+outputs/
+results/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# ======================
+# Caches
+# ======================
+.cache/
+.mlruns/
+
+# ======================
+# IDE / OS
+# ======================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
